@@ -27,7 +27,7 @@
         rel="stylesheet">
 
     <!-- Custom styles for this template-->
-    <link href="../../css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="../../css/admin-2.min.css" rel="stylesheet">
 
 </head>
 
@@ -70,11 +70,7 @@
                                             Login
                                         </a>
                                         <hr>
-                                        <a href="panel.php" class="btn btn-google btn-user btn-block">
-                                            <i class="fab fa-google fa-fw"></i> Login with Google
-                                        </a>
                                     </form>
-                                    <hr>
                                     <div class="text-center">
                                         <a class="small" href="olvidarPass.php">No recuerdo mi contraseña</a>
                                     </div>
@@ -102,7 +98,7 @@
     <script src="../../vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for all pages-->
-    <script src="js/sb-admin-2.min.js"></script>
+    <script src="js/admin-2.min.js"></script>
 
   <!-- Vinculamos el archivo JS de Bootstrap y nuestro script personalizado -->
   <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>

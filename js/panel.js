@@ -4,9 +4,10 @@ function obtenerUsuarios() {
 		.then(response => response.json())
 		.then(data => {
 			// Crear una tabla HTML con los datos de los usuarios
-			let tabla = '<table><thead><tr><th>ID</th><th>Nombre</th><th>Email</th></tr></thead><tbody>';
+			let tabla = 
+			'<table><thead><tr><th>Nombre</th><th>Apellido</th><th>Tipo Documento</th><th>Documento</th><th>Correo</th><th>Celular</th><th>Entidad Bancaria</th><th>N° de Cuenta</th></tr></thead><tbody>';
 			data.forEach(usuario => {
-				tabla += `<tr><td>${usuario.id}</td><td>${usuario.nombre}</td><td>${usuario.email}</td></tr>`;
+				tabla += `<tr><td>${usuario.documento}</td><td>${usuario.nombre}</td><td>${usuario.correo}</td><td>${usuario.celular}</td></tr>`;
 			});
 			tabla += '</tbody></table>';
 			// Agregar la tabla al contenedor principal del dashboard

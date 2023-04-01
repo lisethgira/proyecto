@@ -18,19 +18,49 @@
                 <table id="tablaPersonas" class="table table-striped table-bordered table-condensed" style="width:100%">
                     <thead class="text-center">
                         <tr>
-                            <th>Id</th>
                             <th>Nombre</th>
-                            <th>País</th>
-                            <th>Edad</th>
+                            <th>Apellido</th>
+                            <th>Tipo Documento</th>
+                            <th>Documento</th>
+                            <th>Correo</th>
+                            <th>Celular</th>
+                            <th>Entidad Bancaria</th>
+                            <th>N° de Cuenta</th>
                             <th>Acciones</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>id </td>
-                            <td> nombre</td>
-                            <td>pais</td>
-                            <td>edad</td>
+                            <td>Liseth Arelis Giraldo Morales </td>
+                            <td></td>
+                            <td>cc</td>
+                            <td>10264565</td>
+                            <td>skjdskjd@gmaiil.com</td>
+                            <td>3120545994</td>
+                            <td>banco</td>
+                            <td>156584545454</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Heider Camilo </td>
+                            <td>Alvarez Alvarez</td>
+                            <td>cc</td>
+                            <td>10264565</td>
+                            <td>skjdskjd@gmaiil.com</td>
+                            <td>3120545994</td>
+                            <td>banco</td>
+                            <td>156584545454</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Maria Carolina </td>
+                            <td>Escudero</td>
+                            <td>cc</td>
+                            <td>10264565</td>
+                            <td>skjdskjd@gmaiil.com</td>
+                            <td>3120545994</td>
+                            <td>banco</td>
+                            <td>156584545454</td>
                             <td></td>
                         </tr>
                     </tbody>

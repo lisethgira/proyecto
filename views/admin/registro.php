@@ -26,7 +26,7 @@
             rel="stylesheet">
     
         <!-- Custom styles for this template-->
-        <link href="../../css/sb-admin-2.min.css" rel="stylesheet">
+        <link href="../../css/admin-2.min.css" rel="stylesheet">
     
     </head>
     
@@ -73,11 +73,8 @@
                                         Registrar Cuenta
                                     </a>
                                     <hr>
-                                    <a href="panel.php" class="btn btn-google btn-user btn-block">
-                                        <i class="fab fa-google fa-fw"></i> Registrar con Google
-                                    </a>
                                 </form>
-                                <hr>
+                            
                                 <div class="text-center">
                                     <a class="small" href="olvidarPass.php">Olvide mi contraseña</a>
                                 </div>
@@ -98,7 +95,7 @@
     <script src="../../vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for all pages-->
-    <script src="../../js/sb-admin-2.min.js"></script>
+    <script src="../../js/admin-2.min.js"></script>
     <!-- <script src="../../js/logueo.js"></script> -->
     
 </body>
