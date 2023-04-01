@@ -10,6 +10,7 @@ form.addEventListener('submit', function(event) {
 	const area = document.getElementById('area').value;
 	const numPrendas = document.getElementById('num-prendas').value;
 	const refPrenda = document.getElementById('ref-prenda').value;
+	const comentario = document.getElementById('comentario').value;
 
 	const data = {
 		codigo_empleado: codigoEmpleado,
@@ -18,7 +19,8 @@ form.addEventListener('submit', function(event) {
 		actividad: actividad,
 		area:area,
 		num_prendas: numPrendas,
-		ref_prenda: refPrenda
+		ref_prenda: refPrenda,
+		comentario: comentario,
 	};
 
 	fetch('/api/registro-empleado', {
